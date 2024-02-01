@@ -1,6 +1,6 @@
 # **DTC (Data Talks Club) Data Engineering Zoomcamp 2024**
 
-# Week 2 : 02-workflow-orchestration
+# Week 2 : Workflow Orchestration
 
 ## LEARNING
 
