@@ -37,7 +37,7 @@ Taxi Dataset https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yel
 
 **Blocks List**
 
-_load_taxi_data_
+*load_taxi_data*
 
   ![image](https://github.com/garjita63/de-zoomcamp-2024/assets/77673886/09e0f165-1beb-4943-9c9f-b92526feb0fd)
 
@@ -157,9 +157,19 @@ def export_data_to_postgres(df: DataFrame, **kwargs) -> None:
 ![image](https://github.com/garjita63/de-zoomcamp-2024/assets/77673886/7a372683-e31a-4d67-b519-363e12792018)
 
 ```
-SELECT * FROM ny_taxi.yellow_cab_data LIMIT 10
+SELECT count(*) FROM ny_taxi.yellow_cab_data;
 ```
- 
+
+**Pipeline Execution**
+
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/c5dd6d0d-d5bb-43c4-baf3-b3ffae8e4661)
+
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/7f459fd0-dbcd-4567-84b8-5311f7425d59)
+
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/40917bb8-92a7-442e-afaf-5d921a0b2ba9)
+
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/e8251772-fd90-40ae-ab05-99d0e19ff32f)
+
 
 ###  ETL: API to GCS
 
@@ -216,6 +226,10 @@ def test_output(output, *args) -> None:
     assert output is not None, 'The output is undefined'
 
 ```
+
+**Pipeline Execution**
+
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/867a3dc4-0f74-4f23-b064-74b37e84a2ee)
 
 
 ### ETL: GCS to BigQuery
@@ -328,40 +342,17 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
     )
 ```
 
+**Pipeline Execution**
 
-### Parameterized Execution
-
-*Resources*
-
-- [Mage Variables Overview](https://docs.mage.ai/development/variables/overview)
-- [Mage Runtime Variables](https://docs.mage.ai/getting-started/runtime-variable)
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/23553271-fde2-4fa2-b64f-8d8e5718400b)
 
 
-### Deployment (Optional)
 
-Cover deploying Mage using Terraform and Google Cloud.
-
-*Resources*
-
-- [Installing Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
-- [Installing gcloud CLI](https://cloud.google.com/sdk/docs/install)
-- [Mage Terraform Templates](https://github.com/mage-ai/mage-ai-terraform-templates)
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/d7797428-00f5-4b52-9d31-ad7abe923253)
 
 
-### Additional Mage Guides
-
-- [Terraform](https://docs.mage.ai/production/deploying-to-cloud/using-terraform)
-- [Deploying to GCP with Terraform](https://docs.mage.ai/production/deploying-to-cloud/gcp/setup)
 
 
-### 📑Additional Resources
-
-- [Mage Docs](https://docs.mage.ai/introduction/overview)
-- [Mage Guides](https://docs.mage.ai/guides/overview)
-- [Mage Slack](https://mageai.slack.com/ssb/redirect)
- 
-
-[Notes from Jonah Oliver](https://www.jonahboliver.com/blog/de-zc-w2)
 
 
 ## Homework
