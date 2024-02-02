@@ -344,7 +344,7 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
 
 **Pipeline Execution**
 
-![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/23553271-fde2-4fa2-b64f-8d8e5718400b)
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/ae982bf6-b5a5-4956-a7c0-4c734d4191cc)
 
 
 
