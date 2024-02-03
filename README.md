@@ -442,6 +442,32 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
 
 ![](https://media.licdn.com/dms/image/D5612AQGSxvAxLaNVXA/article-inline_image-shrink_400_744/0/1706932757243?e=1712188800&v=beta&t=8uYqB-411EExak4gnBzluxQUpd0yRhzt8Tt9Z48XJOw)
 
+
+### Deploying to GCP with Terraform
+
+After completing the installation and setup of Mage on GCP using Terraform, here are the results after running terraform apply
+```
+module.lb-http.google_compute_backend_service.default["default"]: Creation complete after 59s [id=projects/dtc-de-course-2024-411803/global/backendServices/mage-data-gar-urlmap-backend-default]
+module.lb-http.google_compute_url_map.default[0]: Creating...
+module.lb-http.google_compute_url_map.default[0]: Still creating... [10s elapsed]
+module.lb-http.google_compute_url_map.default[0]: Creation complete after 12s [id=projects/dtc-de-course-2024-411803/global/urlMaps/mage-data-gar-urlmap-url-map]
+module.lb-http.google_compute_target_http_proxy.default[0]: Creating...
+module.lb-http.google_compute_target_http_proxy.default[0]: Still creating... [10s elapsed]
+module.lb-http.google_compute_target_http_proxy.default[0]: Creation complete after 12s [id=projects/dtc-de-course-2024-411803/global/targetHttpProxies/mage-data-gar-urlmap-http-proxy]
+module.lb-http.google_compute_global_forwarding_rule.http[0]: Creating...
+module.lb-http.google_compute_global_forwarding_rule.http[0]: Still creating... [10s elapsed]
+module.lb-http.google_compute_global_forwarding_rule.http[0]: Still creating... [20s elapsed]
+module.lb-http.google_compute_global_forwarding_rule.http[0]: Creation complete after 24s [id=projects/dtc-de-course-2024-411803/global/forwardingRules/mage-data-gar-urlmap]
+
+Apply complete! Resources: 7 added, 0 changed, 1 destroyed.
+
+Outputs:
+
+service_ip = "34.49.166.36"
+```
+$ terraform destroy
+
+
 ### Homework
 
 [Questions - Week 2 Homework](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/02-workflow-orchestration/homework.md)
