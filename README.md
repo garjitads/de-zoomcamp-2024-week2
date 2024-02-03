@@ -18,6 +18,8 @@
 
 [Intro to Mage.pptx](https://github.com/garjita63/de-zoomcamp-2024/files/14094325/Intro.to.Mage.pptx)
 
+**Mage and Postgres on Docker Desktop**
+
 ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/d294708d-5c98-428f-a5e9-76560f0b8812)
 
 
