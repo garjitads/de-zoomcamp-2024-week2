@@ -472,5 +472,7 @@ $ terraform destroy
 
 [Questions - Week 2 Homework](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/02-workflow-orchestration/homework.md)
 
+**Homework Pipeline Tree**
+
 ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/8eb7b62d-adf2-4d35-b5cf-6f8f36aca657)
 
