@@ -1,4 +1,4 @@
-# **DTC (Data Talks Club) Data Engineering Zoomcamp 2024**
+# **Data Talks Club (DTC) Data Engineering Zoomcamp 2024**
 
 # Week 2 : Workflow Orchestration
 
@@ -163,7 +163,7 @@ def export_data_to_postgres(df: DataFrame, **kwargs) -> None:
 SELECT count(*) FROM ny_taxi.yellow_cab_data;
 ```
 
-**Pipeline Execution**
+**API to Postgres Pipeline Execution**
 
 ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/c5dd6d0d-d5bb-43c4-baf3-b3ffae8e4661)
 
@@ -230,7 +230,7 @@ def test_output(output, *args) -> None:
 
 ```
 
-**Pipeline Execution**
+**API to GCS Pipeline Execution**
 
 ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/867a3dc4-0f74-4f23-b064-74b37e84a2ee)
 
@@ -345,18 +345,11 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
     )
 ```
 
-**Pipeline Execution**
+**GCS to BigQuery Pipeline Execution**
 
 ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/ae982bf6-b5a5-4956-a7c0-4c734d4191cc)
 
-![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/eb1a0951-a929-4fb1-8bad-abe03284616f)
-
-
-
-![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/d7797428-00f5-4b52-9d31-ad7abe923253)
-
-
-
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/849b1eb1-68f2-4042-8d38-067c73b50583)
 
 
 
