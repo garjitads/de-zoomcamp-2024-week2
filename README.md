@@ -18,6 +18,8 @@
 
 [Intro to Mage.pptx](https://github.com/garjita63/de-zoomcamp-2024/files/14094325/Intro.to.Mage.pptx)
 
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/9d0b6693-ef97-4352-a9db-5af0a9e5c9a6)
+
 
 ###  ETL: API to Postgres
 - Build a simple ETL pipeline that loads data from an API into a Postgres database
