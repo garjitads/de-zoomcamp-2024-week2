@@ -18,7 +18,8 @@
 
 [Intro to Mage.pptx](https://github.com/garjita63/de-zoomcamp-2024/files/14094325/Intro.to.Mage.pptx)
 
-![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/9d0b6693-ef97-4352-a9db-5af0a9e5c9a6)
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/d294708d-5c98-428f-a5e9-76560f0b8812)
+
 
 
 ###  ETL: API to Postgres
@@ -347,6 +348,8 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
 **Pipeline Execution**
 
 ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/ae982bf6-b5a5-4956-a7c0-4c734d4191cc)
+
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/eb1a0951-a929-4fb1-8bad-abe03284616f)
 
 
 
