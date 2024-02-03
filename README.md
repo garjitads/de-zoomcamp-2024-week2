@@ -13,6 +13,8 @@ https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow
 
 ### Intro to Orchestration
 
+![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/e07c3133-630d-4d29-b2fa-9dc7ad33db7e)
+
 [Intro to Orchestration.pptx](https://docs.google.com/presentation/d/17zSxG5Z-tidmgY-9l7Al1cPmz4Slh4VPK6o2sryFYvw/edit?pli=1#slide=id.p)
 
 ### Intro to Mage
