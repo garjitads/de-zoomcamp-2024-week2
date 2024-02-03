@@ -8,7 +8,7 @@ https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow
 
 **Techs/Tool**
 
-[Docker](https://www.docker.com/) . [Mage](https://www.mage.ai/) . [Postgres](https://www.postgresql.org/) . [GCP (IAM & Admin, Cloud Storage, BigQuery)](https://console.cloud.google.com/) . [Terraform](https://developer.hashicorp.com/terraform)
+[Docker](https://www.docker.com/) . [Python](https://www.python.org/) . [Mage](https://www.mage.ai/) . [Postgres](https://www.postgresql.org/) . [GCP (IAM & Admin, Cloud Storage, BigQuery)](https://console.cloud.google.com/) . [Terraform](https://developer.hashicorp.com/terraform)
 
 
 ### Intro to Orchestration
