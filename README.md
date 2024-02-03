@@ -17,6 +17,9 @@ https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow
 
 ### Intro to Mage
 
+ ![image](https://github.com/garjitads/de-zoomcamp-2024-week2/assets/157445647/c3dfac7f-b557-414b-bd38-bea326a28684)
+
+
 - Mage platform introduction
   
 - The fundamental concepts behind Mage
