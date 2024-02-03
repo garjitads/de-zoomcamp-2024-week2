@@ -6,6 +6,19 @@
 
 https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow-orchestration
 
+Techs/Tools:
+
+[Docker](https://www.docker.com/)
+
+[Mage](https://www.mage.ai/) 
+
+[Postgres](https://www.postgresql.org/)
+
+[GCP (IAM & Admin, Cloud Storage, BigQuery)](https://console.cloud.google.com/)
+
+[Terraform](https://developer.hashicorp.com/terraform)
+
+
 ### Intro to Orchestration
 
 [Intro to Orchestration.pptx](https://docs.google.com/presentation/d/17zSxG5Z-tidmgY-9l7Al1cPmz4Slh4VPK6o2sryFYvw/edit?pli=1#slide=id.p)
